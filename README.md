@@ -1,4 +1,4 @@
-# Practica 1 Selenium
+# Practica 3 Selenium WebDriver Gherkin
 
 Este repositorio es para practicar el uso de Selenium WebDriver con Java. También, que funcione como plantilla para proyectos futuros.
 
@@ -14,6 +14,9 @@ Este repositorio es para practicar el uso de Selenium WebDriver con Java. Tambi�
 - Selenium WebDriver
 - JUnit
 - Gradle
+- Gherkin
+- Cucumber
+- Page Object Model
 
 ## Material de apoyo
 
@@ -22,20 +25,20 @@ Este repositorio es para practicar el uso de Selenium WebDriver con Java. Tambi�
 - [Selenium WebDriver PDF](https://drive.google.com/file/d/1vXx2OJF-xUjc7_YLAGHXSmEZkAUyExR_/view?usp=sharing)
 - [JUnit](https://junit.org/junit5/docs/current/user-guide/)
 - [Gradle](https://docs.gradle.org/current/userguide/userguide.html)
+- [Page Object Model](https://www.selenium.dev/documentation/en/guidelines_and_recommendations/page_object_models/)
+- [Gherkin](https://cucumber.io/docs/gherkin/reference/)
+- [Cucumber](https://cucumber.io/docs/guides/10-minute-tutorial/)
 
 ## Ejercicios 
 
 ### Ejercicio 1 - Login
 
-Ingresar a la página de [SauceDemo](https://www.saucedemo.com/) y realizar un login con los datos que se te proporcionen.
+Utilizando Gherkin, escribe escenarios en un archivo .feature para el proceso de login en [SauceDemo](https://www.saucedemo.com/)
+.Estos deben incluir escenarios para un login exitoso y para manejar errores comunes como credenciales incorrectas.
 
-### Ejercicio 2 - Ejercicio propio
+### Ejercicio 2 - Añadir al carrito
 
-Realiza un ejercicio propio que involucre el uso de Selenium WebDriver con Java. De una página de tu elección, debes tener en cuenta que el enfoque es "probar".
-
-- Crear un caso de prueba
-- Hacer la automatización de la prueba
-- Crear un pull request
+Utilizando Gherkin, escribe escenarios en un archivo .feature para el proceso de añadir un producto al carrito en [SauceDemo](https://www.saucedemo.com/)
 
 ## Requisitos
 

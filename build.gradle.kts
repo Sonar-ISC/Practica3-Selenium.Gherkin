@@ -15,6 +15,8 @@ dependencies {
     testImplementation (platform("org.junit:junit-bom:5.9.1"))
     testImplementation ("org.junit.jupiter:junit-jupiter")
     testRuntimeOnly ("org.junit.jupiter:junit-jupiter-engine")
+    testImplementation ("io.cucumber:cucumber-java:7.17.0")
+    testImplementation ("io.cucumber:cucumber-junit:7.17.0")
 }
 
 tasks.test {
